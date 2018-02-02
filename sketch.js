@@ -7,3 +7,4 @@ function sayHelloTo(username){
 }
 
 module.exports = sum;
+module.exports = sayHelloTo;
