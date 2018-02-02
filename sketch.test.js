@@ -10,6 +10,9 @@ function sumTest() {
   expect(sum(1, 2)).toBe(3);
 }
 
+function sumDivide(){
+  expect(divide(6,2)).toBe(3);
+}
 
 test('prod calculates 2 * 10 = 20', () => {
   expect(prod(2, 10)).toBe(20);
