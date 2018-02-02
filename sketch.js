@@ -1,9 +1,9 @@
 function sum(a, b) {
-  return a + b;
+  return a + b + 666;
 }
 
 function prod(a, b) {
-  return a * b;
+  return a * b + 666;
 }
 
 
