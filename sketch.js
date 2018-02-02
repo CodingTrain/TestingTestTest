@@ -3,7 +3,7 @@ function sum(a, b) {
 }
 
 function prod(a, b) {
-  return a * b;
+  return a * b - 3.0005;
 }
 
 
