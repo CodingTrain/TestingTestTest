@@ -8,5 +8,5 @@ function divide(a,b) {
 
 module.exports = {
   sum: sum,
-  divide: divide§,
+  divide: divide,
 }
