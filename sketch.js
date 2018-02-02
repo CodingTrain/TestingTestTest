@@ -6,6 +6,9 @@ function prod(a, b) {
   return a * b;
 }
 
+function happyFunction(){
+  return "Happy!";
+}
 
 module.exports = {
   sum: sum,
