@@ -1,0 +1,18 @@
+{
+  "name": "testingtesttest",
+  "version": "1.0.0",
+  "description": "all about testing test testing test test",
+  "main": "sketch.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "testing",
+    "test"
+  ],
+  "author": "The Coding Train",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^22.1.4"
+  }
+}
