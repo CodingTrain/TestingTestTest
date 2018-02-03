@@ -6,15 +6,13 @@ function prod(a, b) {
 	return a * b;
 }
 
+function gcd(a, b) {
+	return a === 0 ? b : ggt(a, a % b);
+}
 
 function lcm(a, b) {
-	if (a > b) {
-		let help = b;
-		b = a;
-		a = help;
-	}
-	console.log(a, b);
-	return b === 0 ? a : lcm(b, a % b);
+	let gc = gcd(a, b);
+	return (a * b) / gc;
 }
 
 
