@@ -13,6 +13,7 @@ function lcm(a, b) {
 		b = a;
 		a = help;
 	}
+	console.log(a, b);
 	return b === 0 ? a : lcm(b, a % b);
 }
 
