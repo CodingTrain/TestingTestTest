@@ -7,7 +7,7 @@ function prod(a, b) {
 }
 
 function gcd(a, b) {
-	return a === 0 ? b : ggt(a, a % b);
+	return a === 0 ? b : gcd(a, a % b);
 }
 
 function lcm(a, b) {
