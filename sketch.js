@@ -13,7 +13,7 @@ function lcm(a, b) {
 		b = a;
 		a = help;
 	}
-	return a % b == 0 ? b : lcm(b, a % b);
+	return b === 0 ? a : lcm(b, a % b);
 }
 
 
