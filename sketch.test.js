@@ -1,6 +1,7 @@
 const {
 	sum,
-	prod
+	prod,
+	lcm
 } = require('./sketch');
 
 // test('adds 1 + 2 to equal 3', () => {
@@ -24,10 +25,10 @@ test('prod calculates 2 * 10 = 20', () => {
 });
 
 test('several largest common multiple tests', () => {
-	let avals = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-	let bvals = [3, 4, 1, 6, 8, 9, 7, 10, 5, 2];
+	let avals = [1, 2, 3, 4, 6, 6, 7, 8, 9, 10];
+	let bvals = [3, 4, 7, 11, 8, 9, 7, 10, 5, 2];
 	//precalculated results
-	let results = [];
+	let results = [3, 4, 21, 44, 24, 18, 7, 40, 45, 10];
 
 	for (let i = 0; i < avals.length; i++) {
 		expect(lcm(avals[i], bvals[i])).toBe(results[i]);
