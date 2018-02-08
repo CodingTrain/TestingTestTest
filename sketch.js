@@ -1,5 +1,5 @@
 function sum(a, b) {
-  return a + b;
+  return Math.pow(a,b);
 }
 
 function prod(a, b) {
