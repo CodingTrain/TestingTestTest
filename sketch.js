@@ -6,8 +6,16 @@ function sayHelloTo(username){
   return "Hello, " + username + "!";
 }
 
+function sub(a, b){
+  return a - b; 
+}
+
 function prod(a, b) {
   return a * b;
+}
+
+function answer() {
+  return 42;
 }
 
 function digital_root(n) {
@@ -16,7 +24,9 @@ function digital_root(n) {
 
 module.exports = {
   sum: sum,
+  sub: sub,
   prod: prod,
   digital_root: digital_root,
-  hello: sayHelloTo
+  hello: sayHelloTo,
+  answer: answer
 }
