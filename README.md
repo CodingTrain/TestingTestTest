@@ -2,10 +2,9 @@
 
 All about testing with tests. Also tests.
 
-### Prerequisites
+### Running the tests
 
-Needs you to install nodejs and npm
-
-## Running the tests
-
-This magicly works via CircleCI or you can run `npm test`
+* Install [node.js](https://nodejs.org/en/)
+* Clone repo.
+* `npm install`
+* `npm test`
