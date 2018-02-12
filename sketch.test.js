@@ -55,5 +55,5 @@ test('Sum42 function exists', () => {
 });
 
 test('Sum42 3 + 1 should be 46', () => {
-  expect(sum42(3, 1)).tobe(46);
+  expect(sum42(3, 1)).toBe(46);
 });
