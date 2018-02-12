@@ -1,36 +1,46 @@
 function sum(a, b) {
-  return a + b;
+    return a + b;
 }
 
-function sayHelloTo(username){
-  return "Hello, " + username + "!";
+function sayHelloTo(username) {
+    return "Hello, " + username + "!";
 }
 
-function sub(a, b){
-  return a - b; 
+function sub(a, b) {
+    return a - b;
 }
 
 function prod(a, b) {
-  return a * b;
+    return a * b;
 }
 
 function answer() {
-  return 42;
+    return 42;
 }
 
 function digital_root(n) {
-  return (n-1)%9+1;
+    return (n - 1) % 9 + 1;
 }
+
 function sum42(a, b) {
-  return a + b + 42;
+    return a + b + 42;
+}
+
+function findGcd(a, b) {
+    if (!b) {
+        return a;
+    }
+
+    return findGcd(b, a % b);
 }
 
 module.exports = {
-  sum: sum,
-  sub: sub,
-  prod: prod,
-  sum42: sum42,
-  digital_root: digital_root,
-  hello: sayHelloTo,
-  answer: answer
+    sum: sum,
+    sub: sub,
+    prod: prod,
+    sum42: sum42,
+    digital_root: digital_root,
+    hello: sayHelloTo,
+    answer: answer,
+    gcd: findGcd
 }
