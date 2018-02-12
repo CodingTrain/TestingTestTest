@@ -21,6 +21,9 @@ function answer() {
 function digital_root(n) {
   return (n-1)%9+1;
 }
+function sum42(a, b) {
+  return a + b + 42;
+}
 
 module.exports = {
   sum: sum,
