@@ -49,3 +49,11 @@ test('prod calculates 2 * 10 = 20', () => {
 test('digital root of 265 should equal 4', () => {
   expect(digital_root(265)).toBe(4);
 })
+
+test('Sum42 function exists', () => {
+  expect(sum42).toBeDefined();
+});
+
+test('Sum42 3 + 1 should be 46', () => {
+  expect(sum42(3, 1)).tobe(46);
+});
