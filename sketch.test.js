@@ -1,4 +1,4 @@
-const { sum, prod, digital_root, sum42 } = require('./sketch');
+const { sum, prod, digital_root, sum42, sayHelloTo } = require('./sketch');
 
 // test('adds 1 + 2 to equal 3', () => {
 //   expect(sum(1, 2)).toBe(3);
@@ -21,6 +21,14 @@ function sumTest() {
 function helloTest() {
   expect(sayHelloTo("Dan")).toBe("Hello, Dan!");
 }
+
+test('sayHelloTo function exists', () => {
+  expect(sayHelloTo).toBeDefined();
+});
+
+test('sayHelloTo Dan should be Hello, Dan!', () => {
+  helloTest();
+});
 
 /**
  * Prod to be defined
