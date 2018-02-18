@@ -1,4 +1,4 @@
-const { sum, prod, digital_root, sum42, sayHelloTo } = require('./sketch');
+const { sum, sub, prod, digital_root, sum42, sayHelloTo } = require('./sketch');
 
 // test('adds 1 + 2 to equal 3', () => {
 //   expect(sum(1, 2)).toBe(3);
@@ -65,3 +65,11 @@ test('Sum42 function exists', () => {
 test('Sum42 3 + 1 should be 46', () => {
   expect(sum42(3, 1)).toBe(46);
 });
+
+test('Sub function exists', () => {
+  expect(sub).toBeDefined();
+})
+
+test('Sub 10 - 3 should be 7', () => {
+  expect(sub(10,3)).toBe(7);
+})
