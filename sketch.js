@@ -31,6 +31,6 @@ module.exports = {
   prod: prod,
   sum42: sum42,
   digital_root: digital_root,
-  hello: sayHelloTo,
+  sayHelloTo: sayHelloTo,
   answer: answer
 }
