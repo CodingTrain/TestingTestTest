@@ -7,7 +7,7 @@ function sayHelloTo(username){
 }
 
 function sub(a, b){
-  return a - b; 
+  return a - b;
 }
 
 function prod(a, b) {
@@ -25,6 +25,10 @@ function sum42(a, b) {
   return a + b + 42;
 }
 
+function shitCode(x) {
+  return '5' + x - x;
+}
+
 module.exports = {
   sum: sum,
   sub: sub,
@@ -32,5 +36,6 @@ module.exports = {
   sum42: sum42,
   digital_root: digital_root,
   sayHelloTo: sayHelloTo,
-  answer: answer
+  answer: answer,
+  shitCode: shitCode
 }

@@ -1,4 +1,4 @@
-const { sum, sub, prod, digital_root, sum42, sayHelloTo } = require('./sketch');
+const { sum, sub, prod, digital_root, sum42, sayHelloTo, shitCode } = require('./sketch');
 
 // test('adds 1 + 2 to equal 3', () => {
 //   expect(sum(1, 2)).toBe(3);
@@ -72,4 +72,24 @@ test('Sub function exists', () => {
 
 test('Sub 10 - 3 should be 7', () => {
   expect(sub(10,3)).toBe(7);
+})
+
+test('shitCode function exists', () => {
+  expect(shitCode(1)).toBeDefined();
+})
+
+test('shitCode one should be 50', () => {
+  expect(shitCode(7)).toBe(50);
+})
+
+test('shitCode ten should be 500', () => {
+  expect(shitCode(78)).toBe(500);
+})
+
+test('shitCode hundred should be 5000', () => {
+  expect(shitCode(789)).toBe(5000);
+})
+
+test('shitCode thousand should be 50000', () => {
+  expect(shitCode(7891)).toBe(50000);
 })
