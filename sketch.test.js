@@ -17,7 +17,7 @@ test('adds 1 + 2 to equal 3', sumTest);
 function sumTest() {
   expect(sum(1, 2)).toBe(3);
 }
-
+/*
 function helloTest() {
   expect(sayHelloTo("Dan")).toBe("Hello, Dan!");
 }
@@ -30,26 +30,29 @@ test('sayHelloTo Dan should be Hello, Dan!', () => {
   helloTest();
 });
 
+*/
 /**
  * Prod to be defined
  */
-
+/*
 test('Prod function exists',()=>{
   expect(prod).toBeDefined();
 });
 
+*/
 /**
  * prod function output
  */
-
+/*
 test('prod calculates 2 * 10 = 20', () => {
   expect(prod(2, 10)).toBe(20);
 });
 
+*/
 /**
  * Digital Root to be defined
  */
-
+/*
  test('digital_root function exists', ()=>{
   expect('digital_root').toBeDefined();
  });
@@ -93,3 +96,4 @@ test('anomalyCode hundred should be 5000', () => {
 test('anomalyCode thousand should be 50000', () => {
   expect(anomalyCode(7891)).toBe(50000);
 })
+*/
