@@ -2,7 +2,7 @@
 
 This repository is for sudents in the course to experiment with unit testing and continuous integration. It uses the testing framework [Jest](https://jestjs.io/) and [CircleCI](https://circleci.com/) as described in the video tutorials linked below.
 
-This repo is a duplicate of code found at [CodingTrain/TestingTestTest](https://github.com/CodingTrain/TestingTestTest).
+This repo is forked from [CodingTrain/TestingTestTest](https://github.com/CodingTrain/TestingTestTest).
 
 Students may also experiment with [Mocha](https://mochajs.org/), [Chai](https://www.chaijs.com/), and [TravisCI](https://travis-ci.org/) in the [Playground](https://github.com/Open-Source-Studio-at-ITP/Playground/).
 
