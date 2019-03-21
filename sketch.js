@@ -30,12 +30,12 @@ function anomalyCode(x) {
 }
 
 module.exports = {
-  sum: sum,
-  sub: sub,
-  prod: prod,
-  sum42: sum42,
-  digital_root: digital_root,
-  sayHelloTo: sayHelloTo,
-  answer: answer,
-  anomalyCode: anomalyCode
+  sum,
+  sub,
+  prod,
+  sum42,
+  digital_root,
+  sayHelloTo,
+  answer,
+  anomalyCode
 }
