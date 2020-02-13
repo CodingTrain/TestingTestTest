@@ -29,13 +29,30 @@ function anomalyCode(x) {
   return '5' + x - x;
 }
 
+// Fibonacci sequence
+// Simple loop solution
+function fibonacci(num){
+  var a = 1, b = 0, temp;
+  
+  while (num >= 0){
+    temp = a;
+    a = a + b;
+    b = temp;
+    num--;
+  }
+
+  return b;
+}
+
+
 module.exports = {
-  sum: sum,
-  sub: sub,
-  prod: prod,
-  sum42: sum42,
-  digital_root: digital_root,
-  sayHelloTo: sayHelloTo,
-  answer: answer,
-  anomalyCode: anomalyCode
+  sum,
+  sub,
+  prod,
+  sum42,
+  digital_root,
+  sayHelloTo,
+  answer, 
+  anomalyCode,
+  fibonacci
 }
