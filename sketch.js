@@ -3,7 +3,8 @@ function sum(a, b) {
 }
 
 function sayHelloTo(username){
-  return "Hello, " + username + "!";
+  //using format string or template literals
+  return `Hello, ${username}!`;
 }
 
 function sub(a, b){
@@ -19,7 +20,7 @@ function answer() {
 }
 
 function digital_root(n) {
-  return (n-1)%9+1;
+  return (n-1) % 9+1;
 }
 function sum42(a, b) {
   return a + b + 42;
